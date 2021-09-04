@@ -6,16 +6,16 @@
                     <content>
                         <k:VerticalLayout>
                             <k:HorizontalLayout>
-                                <Label text="{RES>empno}" width="220px" />
-                                <Input value="{JSN>/empno}" />
+                                <Label text="{RES>empno}" width="220px" design="Bold" />
+                                <Label text="{JSN>/empno}" design="Bold" />
                             </k:HorizontalLayout>
                             <k:HorizontalLayout>
-                                <Label text="{RES>ename}" width="220px" />
-                                <Input value="{JSN>/ename}" />
+                                <Label text="{RES>ename}" width="220px" design="Bold" />
+                                <Label text="{JSN>/ename}" design="Bold" />
                             </k:HorizontalLayout>
                             <k:HorizontalLayout>
-                                <Label text="{RES>desig}" width="220px" />
-                                <Input value="{JSN>/desig}" />
+                                <Label text="{RES>desig}" width="220px" design="Bold" />
+                                <Label text="{JSN>/empdesig}" design="Bold" />
                             </k:HorizontalLayout>
                         </k:VerticalLayout>
                     </content>
