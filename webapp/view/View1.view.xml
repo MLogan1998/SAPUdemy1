@@ -1,16 +1,26 @@
-<mvc:View
-    controllerName="udemy1.controller.View1"
-    xmlns:mvc="sap.ui.core.mvc"
-    displayBlock="true"
-    xmlns="sap.m"
->
-	<Shell id="shell">
-		<App id="app">
-			<pages>
-				<Page id="page" title="{i18n>title}">
-					<content />
-				</Page>
-			</pages>
-		</App>
-	</Shell>
+<mvc:View controllerName="udemy1.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:k="sap.ui.layout" displayBlock="true" xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Resource Model and JSON Model">
+                    <content>
+                        <k:VerticalLayout>
+                            <k:HorizontalLayout>
+                                <Label text="{RES>empno}" width="220px" />
+                                <Input value="{JSN>/empno}" />
+                            </k:HorizontalLayout>
+                            <k:HorizontalLayout>
+                                <Label text="{RES>ename}" width="220px" />
+                                <Input value="{JSN>/ename}" />
+                            </k:HorizontalLayout>
+                            <k:HorizontalLayout>
+                                <Label text="{RES>desig}" width="220px" />
+                                <Input value="{JSN>/desig}" />
+                            </k:HorizontalLayout>
+                        </k:VerticalLayout>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
 </mvc:View>
